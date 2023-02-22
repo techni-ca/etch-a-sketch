@@ -1,0 +1,14 @@
+.grid {
+    display: flex;
+    border: 1px solid blue;
+    height: 80vh;
+    width: 80vh;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex: 1;
+}
+.pixel {
+    flex: 1;
+}
