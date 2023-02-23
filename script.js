@@ -26,7 +26,7 @@ function colorIn() {
         const red = randomByte();
         const green = randomByte();
         const blue = randomByte();
-        const alpha = 0.1;
+        const alpha = 0.9;
         pixel.style.backgroundColor=`rgba(${red},${green},${blue},${alpha})`;
     } else {
         const colorArray=currentColor.split(",");
@@ -34,7 +34,7 @@ function colorIn() {
             const red=+colorArray[0].slice(5);
             const green=+colorArray[1].slice(1);
             const blue=+colorArray[2].slice(1);
-            const alpha=+colorArray[3].slice(1,-1) + 0.1;
+            const alpha=+colorArray[3].slice(1,-1) - 0.1;
             pixel.style.backgroundColor=`rgba(${red},${green},${blue},${alpha})`;
         }
     }

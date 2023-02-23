@@ -1,8 +1,8 @@
 .grid {
     display: flex;
     border: 1px solid blue;
-    height: 80vh;
-    width: 80vh;
+    height: 90vmin;
+    width: 90vmin;
     flex-direction: column;
 }
 .row {
@@ -11,4 +11,5 @@
 }
 .pixel {
     flex: 1;
+    background-color: black;
 }
